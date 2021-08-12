@@ -18,7 +18,7 @@
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   .header {
@@ -72,15 +72,17 @@
 @media screen and (max-width: 576px) {
   .blog-icons {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     list-style-type: none;
   }
 }
 @media screen and (max-width: 576px) {
   .blog-items {
     display: none;
+  }
+  .blog-list-icons {
+    margin-left: 19px;
+    font-size: 20px;
   }
 }
 .blog-list {

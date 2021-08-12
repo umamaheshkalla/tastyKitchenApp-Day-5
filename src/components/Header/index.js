@@ -43,16 +43,16 @@ const Header = props => {
         </ul>
         <ul className="blog-icons">
           <Link className="nav-link" to="/">
-            <li>
+            <li className="blog-list-icons">
               <BiHomeCircle />
             </li>
           </Link>
           <Link className="nav-link" to="/cart">
-            <li>
+            <li className="blog-list-icons">
               <GiShoppingCart />
             </li>
           </Link>
-          <li onClick={onClickLogout} type="button">
+          <li className="blog-list-icons" onClick={onClickLogout} type="button">
             <BiLogOutCircle />
           </li>
         </ul>
