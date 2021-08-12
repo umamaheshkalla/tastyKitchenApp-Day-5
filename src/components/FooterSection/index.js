@@ -4,6 +4,8 @@ import {SiCodechef} from 'react-icons/si'
 import {FaPinterestSquare, FaFacebookSquare} from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {GrInstagram} from 'react-icons/gr'
+import {GoMail} from 'react-icons/go'
+import {HiOutlinePhoneMissedCall} from 'react-icons/hi'
 
 import './index.css'
 
@@ -24,6 +26,17 @@ class FooterSection extends Component {
           <AiOutlineTwitter className="footer-social-media-logos" />
           <FaFacebookSquare className="footer-social-media-logos" />
         </div>
+        <ul className="queries-block">
+          <li className="queries-list">For Queries Contact </li>
+          <div className="query-icon-block">
+            <GoMail className="query-icon" />
+            <li className="queries-list">:- maheshuma916@gmail.com</li>
+          </div>
+          <div className="query-icon-block">
+            <HiOutlinePhoneMissedCall className="query-icon" />
+            <li className="queries-list">:- 814343880</li>
+          </div>
+        </ul>
       </div>
     )
   }

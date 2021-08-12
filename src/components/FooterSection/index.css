@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 40vh;
 }
 .footer-heading {
   display: flex;
@@ -35,4 +35,30 @@
   color: white;
   font-size: 27px;
   margin: 14px;
+  margin-bottom: 7px;
+}
+.queries-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.queries-list {
+  color: #ffffff;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 12px;
+}
+.query-icon-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.query-icon {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 4px;
+  margin-right: 3px;
 }
