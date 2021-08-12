@@ -72,6 +72,9 @@ class CartItems extends Component {
           <p className="dotted-line">
             -------------------------------------------------------------------------------------------------------------------------------
           </p>
+          <p className="mobile-dotted-line">
+            ---------------------------------------------------
+          </p>
           <div className="cart-checkout-container">
             <p className="price-text">Total Price : </p>
             <div className="place-order">

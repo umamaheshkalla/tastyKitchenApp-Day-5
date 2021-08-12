@@ -10,6 +10,17 @@
   margin-bottom: 35px;
   width: 35vw;
 }
+
+@media screen and (max-width: 576px) {
+  .restaurantItems-block {
+    width: 50vw;
+  }
+  .item-image {
+    width: 26vw;
+    height: 20vh;
+  }
+}
+
 .item-info {
   list-style-type: none;
 }
@@ -21,6 +32,13 @@
   color: black;
   margin-bottom: 6px;
 }
+
+@media screen and (max-width: 576px) {
+  .item-name {
+    font-size: 10px;
+  }
+}
+
 .food-type {
   font-family: 'roboto';
   font-weight: 500;
@@ -57,4 +75,16 @@
   height: 30px;
   width: 60px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .food-type {
+    font-size: 6px;
+  }
+  .item-cost {
+    font-size: 10px;
+  }
+  .item-add-button {
+    margin-top: 10px;
+  }
 }

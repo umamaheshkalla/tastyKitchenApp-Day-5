@@ -32,9 +32,9 @@
 }
 .isAdded-text {
   font-family: 'roboto';
-  font-weight: bold;
+  font-weight: 400;
   font-style: italic;
   font-size: 14px;
-  color: #ff8c00;
+  color: red;
   margin-top: 6px;
 }

@@ -54,6 +54,7 @@ class LoginForm extends Component {
     return (
       <div className="sign-in-page">
         <div className="form-card-container">
+          <h1 className="app-name">Tasty Kitchen</h1>
           <h1 className="sign-in-heading">Sign In</h1>
           <form className="form-card" onSubmit={this.submitForm}>
             <label className="label" htmlFor="username">

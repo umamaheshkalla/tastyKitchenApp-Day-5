@@ -18,9 +18,21 @@
   border: 1px outset;
   box-shadow: 5px 10px 18px #d6d6d6;
 }
+@media screen and (max-width: 576px) {
+  .form-card-container {
+    width: 60vw;
+  }
+}
 .form-card {
   display: flex;
   flex-direction: column;
+}
+.app-name {
+  -webkit-text-stroke: 1px white;
+  font-family: 'Segoe UI';
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
 }
 .sign-in-heading {
   font-family: 'Segoe UI';

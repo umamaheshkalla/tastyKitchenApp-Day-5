@@ -8,6 +8,14 @@
   padding-bottom: 20px;
   border: 1px solid #cdd0d1;
 }
+
+@media screen and (max-width: 576px) {
+  .cart-items-block {
+    width: 85vw;
+    padding-top: 10px;
+  }
+}
+
 .heading-block {
   display: flex;
   flex-direction: column;
@@ -41,17 +49,48 @@
   font-size: 12px;
   margin: 10px;
 }
+@media screen and (max-width: 576px) {
+  .quantity-button {
+    width: 18px;
+  }
+  .quantity {
+    margin: 4px;
+  }
+}
 .cart-item-img {
   height: 70px;
   width: 100px;
   border-radius: 6px;
   margin-right: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .cart-item-img {
+    width: 70px;
+    height: 50px;
+  }
+}
+
 .dotted-line {
   text-align: center;
   font-weight: 400;
   color: #cdd0d1;
 }
+.mobile-dotted-line {
+  display: none;
+  text-align: center;
+  font-weight: 400;
+  color: #cdd0d1;
+}
+@media screen and (max-width: 576px) {
+  .dotted-line {
+    display: none;
+  }
+  .mobile-dotted-line {
+    display: flex;
+  }
+}
+
 .cart-checkout-container {
   display: flex;
   justify-content: space-around;
@@ -75,12 +114,23 @@
   color: black;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 576px) {
+  .cart-heading {
+    font-size: 10px;
+  }
+}
 .item-name-text {
   font-family: 'roboto';
   font-weight: 500;
   font-size: 13px;
   color: black;
 }
+@media screen and (max-width: 576px) {
+  .item-name-text {
+    font-size: 9px;
+  }
+}
+
 .cart-item-price {
   display: flex;
   align-items: center;

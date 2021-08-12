@@ -12,3 +12,8 @@
   align-items: center;
   margin: 30px;
 }
+@media screen and (max-width: 576px) {
+  .cart-page {
+    margin: 20px;
+  }
+}

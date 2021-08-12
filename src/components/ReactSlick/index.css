@@ -6,3 +6,13 @@
   height: 40vh;
   width: 100vw;
 }
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 30px;
+  }
+  .carousel-images {
+    width: 80vw;
+    height: 25vh;
+  }
+}

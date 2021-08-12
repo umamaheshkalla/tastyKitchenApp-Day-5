@@ -17,7 +17,7 @@ class NotFound extends Component {
             className="not-found-img"
           />
           <p className="error-msg">
-            we're sorry the page you requested is not found <br />
+            we are sorry the page you requested is not found <br />
             Please go back to Home Page.
           </p>
           <Link to="/">

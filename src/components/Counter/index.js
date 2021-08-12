@@ -55,7 +55,7 @@ class Counter extends Component {
             Add to Cart
           </button>
         ) : (
-          <li className="isAdded-text"> Item Added to Cart --> Go to Cart</li>
+          <li className="isAdded-text"> Item Added to Cart -- Go to Cart</li>
         )}
       </div>
     )
